@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--color-ambient-08);
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+	--color-ambient-09: #FFFFFF;
+	--color-ambient-08: #F4F4F8;
+	--color-ambient-07: #ECECF2;
+	--color-ambient-06: #D0D0D6;
+	--color-ambient-05: #A8A8AD;
+	--color-ambient-04: #76767B;
+	--color-ambient-03: #4A4A4E;
+	--color-ambient-02: #262629;
+	--color-ambient-01: #000000;
+
+	--color-brand-primary-01: #8A9FBD;
+	--color-success-01: #639D59;
+	--color-success-02: #D8E8D9;
+	--color-warning-01: #F1C633;
+	--color-warning-02: #FCF1CC;
+	--color-critical-01: #C94E33;
+	--color-critical-02: #F1D3CC;
+}
